@@ -1,6 +1,6 @@
 <p align="center"><img height="150" height="auto" src="https://user-images.githubusercontent.com/63885192/210028418-e15f2938-cb58-468f-8711-7375d66a038a.png"></p>
 
-# Alpha-1 Testnet Guide
+# Taiko Alpha-1 Testnet Guide
 
 ###  Deploy a contract
 ```
