@@ -15,7 +15,7 @@ source /root/.bashrc
 foundryup
 ```
 
-Select 1 Proceed with installation (default)
+### Select 1 Proceed with installation (default)
 ```
 curl https://sh.rustup.rs -sSf | sh
 ```
@@ -86,10 +86,8 @@ sudo chmod +x /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo systemctl restart docker.service
 ```
 
-```
-```
 
-Install
+### Install
 ```
 git clone https://github.com/taikoxyz/simple-taiko-node.git
 ```
