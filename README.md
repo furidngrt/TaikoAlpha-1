@@ -114,7 +114,7 @@ In L2_SUGGESTED_FEE_RECIPIENT=ENTER YOUR ADRESS
 sudo docker-compose up -d
 ```
 
-check logs
+#### check logs
 ```
 sudo docker-compose logs -f
 ```
