@@ -15,7 +15,7 @@ source /root/.bashrc
 foundryup
 ```
 
-### Select 1 Proceed with installation (default)
+#### Select 1 Proceed with installation (default)
 ```
 curl https://sh.rustup.rs -sSf | sh
 ```
@@ -57,7 +57,7 @@ https://l2faucet.a1.taiko.xyz Taiko (A1 Testnet)
 <p>
 https://l1faucet.a1.taiko.xyz Ethereum (Taiko's Private L1)
 
-install Dcoker
+#### install Dcoker
 ```
 sudo apt autoremove docker* container* -y
 ```
@@ -87,7 +87,7 @@ sudo systemctl restart docker.service
 ```
 
 
-### Install
+#### Install
 ```
 git clone https://github.com/taikoxyz/simple-taiko-node.git
 ```
@@ -104,11 +104,11 @@ cp .env.sample .env
 nano .env
 ```
 
-Change ENABLE_PROPOSER=false to ENABLE_PROPOSER=true
+Change ENABLE_PROPOSER=`false` to ENABLE_PROPOSER=`true`
 <p>
-In L1_PROPOSER_PRIVATE_KEY=enter your Private Key
+In L1_PROPOSER_PRIVATE_KEY=ENTER YOUR PRIVATE KEY
 <p>
-In L2_SUGGESTED_FEE_RECIPIENT=enter your address
+In L2_SUGGESTED_FEE_RECIPIENT=ENTER YOUR ADRESS
 
 ```
 sudo docker-compose up -d
