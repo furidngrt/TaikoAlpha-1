@@ -110,7 +110,6 @@ In L1_PROPOSER_PRIVATE_KEY=enter your Private Key
 <p>
 In L2_SUGGESTED_FEE_RECIPIENT=enter your address
 
-Run Node
 ```
 sudo docker-compose up -d
 ```
